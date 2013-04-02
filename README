@@ -1,0 +1,3 @@
+Node graph where I keep track of all the Little Alchemy recipes I have so far
+
+Uses: [Graph Dracula](http://www.graphdracula.net) for graphing
