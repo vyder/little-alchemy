@@ -19,7 +19,7 @@ var LittleAlchemy = function(params) {
 
 		numProducts += 1;
 
-		var textNode = document.createTextNode(numProducts);
+		var textNode = document.createTextNode("Number of Products in the graph: " + numProducts);
 		var numProductsSpan = document.getElementById('numProducts');
 		if(numProductsSpan.hasChildNodes()) {
 			numProductsSpan.removeChild(numProductsSpan.childNodes[0]);
